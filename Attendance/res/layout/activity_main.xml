@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF0D0"
+    tools:ignore="Deprecated" >
+
+    <TextView
+        android:id="@+id/txtMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="135dp"
+        android:layout_y="243dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="1dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/applogo"
+        tools:ignore="ContentDescription,HardcodedText" />
+
+    <AnalogClock
+        android:id="@+id/analogClock1"
+        android:layout_width="134dp"
+        android:layout_height="138dp"
+        android:layout_x="176dp"
+        android:layout_y="92dp" />
+
+    <Button
+        android:id="@+id/firstButt"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="12dp"
+        android:layout_y="380dp"
+        android:text="@string/firstButt" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="176dp"
+        android:layout_y="380dp"
+        android:text="@string/viewBtn" />
+
+</AbsoluteLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Class Attendance</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="scanTxt">Scan</string>
+    <string name="scanningTxt">Scanning....</string>
+    
+     <string name="addBtn">Sign-in</string>
+    <string name="viewBtn">View Students</string>
+    <string name="imgFile">Cput</string>
+    <string name="imgDesc">your desc goes here</string>
+    
+     <string name="textView">This is a Class Register</string>
+     <string name="studTxt">Students in Attended</string>
+     
+     <string name="scanButton">Scan</string>
+     <string name="homeBtn">Home</string>
+     
+    <string name="activity_add_database">Attendance</string>
+    <string name="activity_view_database_records">ViewDatabaseRecords</string>
+    <string name="textview">This is class register. These are some of the Frequent Asked Questions</string>
+    <string name="multiautocompletetextview">My QR code will nor scan</string>
+    <string name="medium_text">Frequently Asked Questions</string>
+    <string name="small_text">How to check if i\'m signed in?</string>
+    <string name="loggedIn">Press view button on home screen</string>
+    <string name="howSign">How do i sign in?</string>
+    <string name="howDoISign">Press sign in button on the home screen.</string>
+    <string name="whatTools">What tools required for me to sign in?</string>
+    <string name="toolsNeeded">Only the QR code is needed to sign in. The QR code can be kept on your portable device, or printed on small paper.</string>
+    <string name="firstBtn">Open The Register</string>
+    <string name="app_logo">App Logo</string>
+    <string name="firstButt">Open The Register</string>
+
+</resources>

@@ -1,0 +1,30 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/ScanButton"
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:layout_x="202dp"
+        android:layout_y="388dp"
+        android:text="@string/scanButton" />
+
+    <TextView
+        android:id="@+id/scanText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="6dp"
+        android:layout_y="356dp"
+        android:text="Scanning..." />
+
+    <FrameLayout
+        android:id="@+id/cameraPreview"
+        android:layout_width="300dp"
+        android:layout_height="281dp"
+        android:layout_x="6dp"
+        android:layout_y="73dp" >
+    </FrameLayout>
+
+</AbsoluteLayout>
